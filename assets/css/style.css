@@ -71,3 +71,22 @@ body,
     bottom: 0;
     z-index: 999;
 }
+
+.full-banner {
+    background-image: url('../images/full-banner.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 120px;
+}
+
+.full-banner small {
+    color: #999898;
+}
+
+.full-banner .btn-primary {
+    background-color: #e30f19;
+    border-radius: 0;
+    border: none;
+    min-width: 100px;
+}

@@ -31,7 +31,7 @@ body,
     padding-right: 0;
 }
 
-.navbar ul {
+.navbar ul.sidebar {
     color: #999898;
     max-width: 250px;
     background-color: #1b1b1b;
@@ -116,5 +116,38 @@ footer {
     }
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .navbar-bg-dark {
+        background-color: transparent !important;
+        background-image: url('../images/header_gradient.png');
+        background-repeat: repeat-x;
+    }
+
+    .full-banner {
+        min-height: 50vh;
+    }
+
+    .full-banner p {
+        color: #999898;
+        max-width: 50vw;
+    }
+
+    .navbar-brand.flex-grow-1 {
+        flex-grow: initial !important;
+    } 
+
+    .navbar ul.nav {
+        flex-grow: 1 !important;
+    }
+
+    .navbar ul.nav .active {
+        color: #e30f19 !important;
+        font-weight: bold;
+    }
+
+    .navbar img {
+        height: 34px;
+    }
+}
+
 @media (min-width: 1200px) {}

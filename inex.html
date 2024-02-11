@@ -10,20 +10,33 @@
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 </head>
 <body>
-    <div class="backdrop"></div>
     <nav class="navbar navbar-dark bg-dark fixed-top">
-        <button type="button" class="navbar-toggler">
+        <button type="button" class="navbar-toggler d-lg-none">
             <img src="./assets/images/hamburger.gif" alt="Menu">
         </button>
         <a href="#" class="navbar-brand flex-grow-1">
-            <img src="./assets/images/logo.png" alt="Netflix" height="30" class="my-1 mx-2">
+            <img src="./assets/images/logo.png" alt="Netflix" class="my-1 mx-2">
         </a>
+        <ul class="nav text-white d-none d-lg-flex">
+            <li class="nav-item">
+                <a href="#" class="nav-link text-reset active">Navegar</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-reset">Infatil</a>
+            </li>
+        </ul>
         <form action="" class="form-inline">
             <input type="search" class="form-control" placeholder="Buscar" name="search" id="search">
         </form>
-        <ul class="list-unstyled font-weight-bold">
+        <div class="media text-white p-2 d-none d-lg-flex">
+            <img src="./assets/images/avatar.jpg" alt="Avatar" class="mr-2">
+            <div class="media-body">
+                <p class="h6 m-0">Djalma Sinddeaux</p>
+            </div>
+        </div>
+        <ul class="list-unstyled font-weight-bold sidebar">
             <li class="media media-avatar">
-                <img src="./assets/images/avatar.jpg" alt="Avatar">
+                <img src="./assets/images/avatar.jpg" alt="Avatar" class="mr-2">
                 <div class="media-body">
                     <p class="h6 m-0">Djalma Sinddeaux</p>
                     <small>Trocar de perfil</small>
@@ -52,6 +65,7 @@
                             <span class="mr-3">12</span>
                             <span>182 min</span>
                         </small>
+                        <p class="d-none d-lg-block">Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.</p>
                         <a href="#" class="btn btn-primary text-uppercase font-weight-bold">Assistir</a>
                     </div>
                 </div>

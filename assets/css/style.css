@@ -5,6 +5,10 @@ body,
     background-color: #1b1b1b !important;
 }
 
+.navbar {
+    position: relative;
+}
+
 .navbar .form-control {
     background-color: #1b1b1b !important;
     color: #fff;
@@ -24,4 +28,28 @@ body,
     border: none;
     padding-left: 0;
     padding-right: 0;
+}
+
+.navbar ul {
+    color: #999898;
+    max-width: 250px;
+    background-color: #1b1b1b;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+.navbar ul li {
+    padding: .3em 1em;
+}
+
+.navbar ul li.divider {
+    border-bottom: 1px solid #999898;
+    margin: .3em auto;
+}
+
+.media-avatar img {
+    height: 38px;
 }

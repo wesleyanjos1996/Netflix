@@ -150,4 +150,17 @@ footer {
     }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .navbar ul.nav li {
+        padding: 0;
+    }
+
+    .navbar ul.nav {
+        color: rgba(255, 255, 255, .5) !important;
+    }
+    
+    .navbar ul.nav .active{
+        color: rgba(255, 255, 255, 1) !important;
+        font-weight: bold;
+    }
+}

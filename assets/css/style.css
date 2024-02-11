@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body,
+.bg-dark {
+    background-color: #1b1b1b !important;
+}
+
+.navbar .form-control {
+    background-color: #1b1b1b !important;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 0;
+    max-width: 115px;
+    line-height: 28px;
+    height: 28px;
+}
+
+.navbar img {
+    height: 24px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+}

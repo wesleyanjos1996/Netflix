@@ -91,7 +91,8 @@ body,
     min-width: 100px;
 }
 
-.list-titles h2 {
+.list-titles h2,
+footer {
     color: #999898;
 }
 
